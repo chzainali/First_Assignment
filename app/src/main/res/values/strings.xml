@@ -1,0 +1,24 @@
+<resources>
+    <string name="app_name">First Assignment</string>
+    <string name="text1">Constraint Layout</string>
+    <string name="text2">Click Me</string>
+    <string name="text3">Relative Layout</string>
+    <string name="text4">Click for Linear Layout</string>
+    <string name="text5">Linear Layout</string>
+    <string name="text6">
+        The Essential Component in Linear Layout is Orientation either Horizontal or Vertical
+    </string>
+    <string name="text7">Click For Table Layout</string>
+    <string name="text8">Table Layout</string>
+    <string name="text9">View1</string>
+    <string name="text10">View2</string>
+    <string name="text11">View3</string>
+    <string name="text12">Click for Grid Layout</string>
+    <string name="text13">Frame Layout</string>
+    <string name="text14">Click for Scroll View</string>
+    <string name="text15">Scroll View</string>
+    <string name="text16">1st Assignment</string>
+    <string name="text17">Complete</string>
+    <string name="text18">All Layouts</string>
+    <string name="text19">Work Properly</string>
+</resources>

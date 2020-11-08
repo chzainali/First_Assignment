@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TableLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:stretchColumns="0"
+    tools:context=".TableLayout">
+
+<TableRow>
+
+    <Button
+        android:layout_width="100dp"
+        android:layout_height="50dp"
+        android:text="@string/text8"
+        android:textAllCaps="false"
+        android:layout_margin="5dp"
+        />
+    <Button
+        android:layout_width="100dp"
+        android:layout_height="50dp"
+        android:text="@string/text10"
+        android:layout_margin="5dp"
+        />
+    <Button
+        android:layout_width="100dp"
+        android:layout_height="50dp"
+        android:text="@string/text11"
+        android:layout_margin="5dp"
+        />
+
+</TableRow>
+
+    <TableLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:stretchColumns="1"
+        >
+    <TableRow>
+
+        <Button
+            android:layout_width="100dp"
+            android:layout_height="50dp"
+            android:text="@string/text9"
+            android:layout_margin="5dp"
+            />
+        <Button
+            android:layout_width="100dp"
+            android:layout_height="50dp"
+            android:text="@string/text8"
+            android:textAllCaps="false"
+            android:layout_margin="5dp"
+            />
+        <Button
+            android:layout_width="100dp"
+            android:layout_height="50dp"
+            android:text="@string/text11"
+            android:layout_margin="5dp"
+            />
+
+    </TableRow>
+    </TableLayout>
+
+    <TableLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:stretchColumns="2"
+        >
+        <TableRow>
+
+            <Button
+                android:layout_width="100dp"
+                android:layout_height="50dp"
+                android:text="@string/text9"
+                android:layout_margin="5dp"
+                />
+            <Button
+                android:layout_width="100dp"
+                android:layout_height="50dp"
+                android:text="@string/text10"
+                android:layout_margin="5dp"
+                />
+            <Button
+                android:layout_width="100dp"
+                android:layout_height="50dp"
+                android:text="@string/text8"
+                android:textAllCaps="false"
+                android:layout_margin="5dp"
+                />
+
+        </TableRow>
+    </TableLayout>
+
+    <TableLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:stretchColumns="0">
+        <TableRow>
+            <Button
+                android:id="@+id/mBtn"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/text12"
+                />
+        </TableRow>
+    </TableLayout>
+
+</TableLayout>
